@@ -23,5 +23,6 @@ def division(numOne, numTwo):
         return numOne/numTwo
     
 
+numOne = int(input("What is the first number?"))
+numTwo = int(input("What is the second number"))
 
-print(division(2,0))
