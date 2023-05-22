@@ -18,9 +18,10 @@ def subtraction(numOne, numTwo):
 
 def division(numOne, numTwo):
     if numTwo == 0:
-        print("You cannot divide by 0")
+        return "You cannot divide by 0"
     else:
         return numOne/numTwo
     
-    
 
+
+print(division(2,0))
