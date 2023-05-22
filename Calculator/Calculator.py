@@ -26,3 +26,10 @@ def division(numOne, numTwo):
 numOne = int(input("What is the first number?"))
 numTwo = int(input("What is the second number"))
 
+operation = input("What would you like to do? Your options are addition, subtraction, multiplication, division and parity")
+
+# you can use if else
+if operation == "addition":
+    print(addition(numOne, numTwo))
+
+# The other option is to use something called match and case
