@@ -13,4 +13,7 @@ def evenOrOdd(number):
 def addition(numOne, numTwo):
     return numOne+numTwo
 
+def subtraction(numOne, numTwo):
+    return numOne-numTwo
+
 
