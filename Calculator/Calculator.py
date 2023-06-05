@@ -36,3 +36,10 @@ elif operation == "subtraction":
 
 # The other option is to use something called match and case
 
+match operation:
+    case "addition":
+        print(addition(numOne, numTwo))
+    case "subtraction":
+        print(subtraction(numOne, numTwo))
+        
+         
