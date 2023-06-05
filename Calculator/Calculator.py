@@ -22,6 +22,9 @@ def division(numOne, numTwo):
     else:
         return numOne/numTwo
     
+def multiplication(numOne, numTwo):
+    return numOne*numTwo
+    
 
 numOne = int(input("What is the first number?"))
 numTwo = int(input("What is the second number"))
@@ -39,3 +42,5 @@ match operation:
     case "parity":
         evenOrOdd(numOne)
         evenOrOdd(numTwo)
+    case "multiplication":
+        print(mul)
