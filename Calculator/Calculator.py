@@ -31,13 +31,7 @@ operation = input("What would you like to do? Your options are addition, subtrac
 
 # The other option is to use something called match and case
 
-match operation:
-    case "addition":
-        print(addition(numOne, numTwo))
-    case "subtraction":
-        print(subtraction(numOne, numTwo))
-    case "parity":
-        evenOrOdd(numOne)
-        evenOrOdd(numTwo)
-    
+if operation == "parity":
+    print(evenOrOdd(numOne))
+    print(evenOrOdd(numTwo))
 
