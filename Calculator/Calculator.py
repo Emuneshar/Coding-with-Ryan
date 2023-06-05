@@ -43,4 +43,7 @@ match operation:
         evenOrOdd(numOne)
         evenOrOdd(numTwo)
     case "multiplication":
-        print(mul)
+        print(multiplication(numOne, numTwo))
+    case "division":
+        print(division(numOne, numTwo))
+    
