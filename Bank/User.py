@@ -53,3 +53,5 @@ class User:
         self.password = newPassword
 
 
+    # Additional functions
+     
