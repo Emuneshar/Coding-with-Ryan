@@ -10,4 +10,16 @@ class User:
         self.username = username
         self.password = password
 
+    # Getters and Setters. These functions get values and can change values for us
+
+    def getName(self):
+        fullName = self.firstName + self.lastName
+        return fullName
+    
+    def setFirstName(self, newFirstName):
+        self.firstName = newFirstName
+
+    def setLastName(self, newLastName):
+        self.lastName = newLastName
+
 
