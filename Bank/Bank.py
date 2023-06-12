@@ -8,3 +8,7 @@ print("You have the following options\n",
       "5. Close Account"
       )
 
+choice = int(input("Which one would you like?"))
+
+
+
